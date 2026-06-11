@@ -45,15 +45,15 @@ Und falls sich das Kit später mal ändert: sagt Claude einfach „hol die neues
 
 Claude arbeitet immer in dem Ordner, in dem das Terminal gerade steht. Für den Deck-Skill muss das der Kit-Ordner sein. So kommt ihr hin:
 
-**Der Trick, der immer funktioniert (Mac):** Terminal öffnen, `cd ` tippen (mit Leerzeichen dahinter), dann den Kit-Ordner aus dem Finder direkt ins Terminal-Fenster ziehen, Enter. Das Terminal steht jetzt im Ordner.
-
-**Mac, der direkte Weg:** Im Finder Rechtsklick auf den Kit-Ordner, dann „Dienste" und „Neues Terminal beim Ordner".
+**Mac:** Im Finder Rechtsklick auf den Kit-Ordner, dann „Dienste" und „Neues Terminal beim Ordner".
 
 <!-- TODO Screenshot: Finder-Rechtsklick mit Dienste > Neues Terminal beim Ordner -->
 
 **Windows 11:** Im Explorer Rechtsklick auf den Kit-Ordner, dann „Im Terminal öffnen".
 
 <!-- TODO Screenshot: Windows-Explorer-Rechtsklick mit "Im Terminal öffnen" -->
+
+**Falls der Rechtsklick die Option nicht zeigt:** Terminal öffnen, `cd ` tippen (mit Leerzeichen dahinter), dann den Kit-Ordner aus dem Finder bzw. Explorer direkt ins Terminal-Fenster ziehen, Enter.
 
 Danach `claude` tippen, Enter, und es kann losgehen.
 
