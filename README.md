@@ -88,15 +88,24 @@ Befehle, die mit `/` beginnen, steuern Claude Code selbst. Diese vier solltet ih
 
 Eigene Befehle für eure wiederkehrenden Aufgaben (sogenannte Skills) sind genau das Thema des Workshops. Der erste eigene entsteht mit dem Deck-Template unten; die Konzepte stehen im [Claude Guide](https://stokic.ai/claude-guide).
 
-## Der Deck-Skill (eure Hausaufgabe nach Session 1)
+## Euer erster Skill: der Prozess
 
-In `team-deck-template/` liegt ein Skill, der Folien im klassischen Beratungs-Look baut. Er ist absichtlich noch nicht auf euch eingestellt: beim ersten Aufruf stellt er euch sechs Fragen zu eurem Hausstil und kalibriert sich anhand eurer Referenz-Decks (die zwei aus der Checkliste).
+So entsteht jeder Build, vom ersten Skill bis zur echten App. Der Prozess ist immer derselbe:
 
-So startet ihr nach Session 1:
+1. **Plan-Modus an** (`Shift+Tab` bis „plan mode"). Claude denkt erst, fasst nichts an.
+2. **Schmerz beschreiben.** Euren größten Zeitfresser aus der Checkliste, in normalen Sätzen. Dann: „Interview mich, bis du genug für eine Spec weißt."
+3. **Interviewen lassen.** Claude stellt Fragen, ihr antwortet. Das ist der wichtigste Schritt: hier entsteht die Qualität.
+4. **Spec lesen und freigeben.** Ein kurzer schriftlicher Plan. Erst wenn er stimmt, geht es weiter.
+5. **Bauen lassen** (`Shift+Tab` zu Auto-Accept, dann: „Bau es."). Der Agent arbeitet, ihr trinkt Kaffee oder schaut zu.
 
-1. Terminal im Kit-Ordner öffnen (siehe oben), `claude` starten
-2. Sagen: „Lies team-deck-template/SKILL.md und führe das Kalibrierungs-Interview mit mir."
-3. Den sechs Fragen folgen, eure zwei Referenz-Decks bereithalten
-4. Ein erstes Deck zu einem echten Thema aus eurer Arbeit bauen lassen
+**Wessen Nummer 1 Folien oder Reports sind:** In `team-deck-template/` liegt ein fertiger Start. Sagen: „Lies team-deck-template/SKILL.md und führe das Kalibrierungs-Interview mit mir." Er stellt sechs Fragen zu eurem Hausstil und kalibriert sich anhand eurer zwei Referenz-Decks.
 
-Das Ergebnis bringt ihr in Session 2 mit. Steckenbleiben ist erlaubt, genau dafür ist die Session da. Aber schreibt mir vorher: marko@stokic.ai
+**Hausaufgabe bis Session 2 (30. Juni):** Build fertigstellen, mindestens zweimal an echter Arbeit benutzen, nachschärfen. Dann auf euer eigenes GitHub schieben (wie? Claude fragen). Steckenbleiben ist erlaubt, aber schreibt mir vorher: marko@stokic.ai
+
+## Qualität sichern (gegen KI-Schrott)
+
+Die Reviewer-Regel aus dem Workshop: **prüft nie selbst, was eine Maschine vorher hätte ablehnen können.** Eure Aufmerksamkeit ist das Knappste im Prozess. Sie gehört nur dorthin, wo Geschmack und Urteil gefragt sind.
+
+- **Lasst Claude testen, bevor ihr schaut.** Bei allem Gebauten: „Teste das gründlich, zeig mir erst dann das Ergebnis." Bei Texten: „Prüf das gegen unsere Regeln, bevor du es mir gibst."
+- **Regeln aufschreiben statt wiederholen.** Wenn ihr dieselbe Korrektur zum dritten Mal gebt (kein Denglisch, keine Floskeln, Zahlenformat), gehört sie in eine Datei, die Claude jedes Mal liest. Auf Wunsch baut Claude euch daraus einen automatischen Prüfer.
+- **Fertige Qualitäts-Skills nutzen.** Für Web-Oberflächen lohnt sich z.B. der `frontend-design`-Skill von Anthropic. Es gibt ganze Skill-Pakete gegen generischen KI-Look. Ehrliche Einordnung: die entfernen Schrott, echten Geschmack müsst ihr selbst kalibrieren, mit Beispielen von euch.
